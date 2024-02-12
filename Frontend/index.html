@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <link rel="stylesheet" href="./products.css">
+    <link rel="stylesheet" href="./footer.css">
+      <title>Bellavita</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        align-items: center;
+        background: transparent;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    #ncategory{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        width: 80%;
+        margin: auto;
+    }
+    /*
+    .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin: 5px 0;
+} */
+.video-container {
+            position: relative;
+            width: 100%;
+            height: 200px;
+        }
+
+        video {
+            width: 100%;
+            height: 200px;
+
+            display: block;
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+</style>
+<body >
+   
+    <header id="header"></header>
+    <main>
+        <div>
+            <img src="./image1.jpg" alt="" style="width:100%; height: 550px;">
+            <br>           
+            <img src="./image2.jpg" alt="" style="width: 100%; height: 100px;" >
+        </div>
+        <h1 style="font-weight: 900; font-size: xx-large; display: flex; align-self: center; padding: 0px 550px;">Best Deals</h1>
+        <section>
+            <div id="product-container" class="container"></div>
+            <br>
+            <img src="https://bellavitaorganic.com/cdn/shop/files/Offer-Banner-2.jpg?v=1695733175&width=1920" alt="">
+            <br>
+            <!-- <video src="https://cdn.shopify.com/videos/c/o/v/478dfd30e1114a6a9fe7a4c4d1b1ffa4.mp4" style="height: 300px; width: 100%;"></video> -->
+<!-- 
+            
+<div class="video-container">
+    <video autoplay loop>
+        <source src="https://cdn.shopify.com/videos/c/o/v/478dfd30e1114a6a9fe7a4c4d1b1ffa4.mp4"  type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="text-overlay">
+        <div class="banner__box center mobile-center"><h2 class="banner__heading h1">DISCOVER THE ART OF PERFUMERY</h2><div class="banner__text typeset2 rte"><p>Our formulations have proven efficacy, contain certified ingredients only and are 100% cruelty free</p></div><a class="button button--medium" href="/collections/luxury-perfumes">
+            Fragrances
+          </a></div>
+    </div>
+</div> -->
+        </section>
+    </main>
+    <footer id="footer">
+        
+
+        
+    </footer>
+</body>
+<script src="./Navbar.js">
+
+</script>
+<script src="./product.js"></script>
+<script src="./Footer.js"></script>
+</html>

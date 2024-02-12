@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./cart.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header id="header"></header>
+    <div id="cart_container">
+        <div id="cart_heading">
+            <h1>Your Cart</h1>
+            <button class="checkoutBtn1">
+                <img src="./images/unlock.png" alt="">
+                <p>CHECKOUT SECURELY NOW</p>
+            </button>
+        </div>
+        <!-- Cart Table -->
+        <div id="mainCart">
+            <div id="cart_prod_table">
+                <div id="table_head">
+                    <p>Items</p>
+                    <p>Price</p>
+                    <p>Quantity</p>
+                    <p>Subtotal</p>
+                </div>
+                <div id="cart_items">
+                    <!-- append -->
+                </div>
+                <div id="cart_total">
+                    <p>Total Savings:</p>
+                    <div id="offer_amount">
+                        <!-- append -->
+                    </div>
+                    <div id="coupon_div">
+                        <input type="text" id="couponSearch" placeholder="Got a coupon code? Enter it here:">
+                        <button id="couponButton">ADD</button>
+                    </div>
+                    <div id="continue_checkout">
+                        <button id="continueBtn">CONTINUE SHOPPING</button>
+                        <button class="checkoutBtn2">
+                            <img src="./images/unlock.png" alt="">
+                            <p>CHECKOUT SECURELY NOW</p>
+                        </button>
+                    </div>
+                    <div id="payment_logos">
+                        <div><img src="./images/paypalLogo.png" alt=""></div>
+                        <div><img src="./images/Alipay-Logo.png" alt=""></div>
+                        <div><img src="./images/afterpay-logo.png" alt=""></div>
+                        <div><img src="./images/google-pay.png" alt=""></div>
+                        <div><img src="./images/sezzle.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div id="free_prods">
+                <h4>Gift Selection</h4>
+                <p>Select a gift for you or someone you love when you spend $130 or more</p>
+                <div id="freeProd_display">
+                    <!-- append -->
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <div id="other_customer_buy">
+        <h3>Other Customers bought:</h3>
+        <div id="product_4">
+            <!-- append  4 cards of products data -->
+        </div>
+    </div>
+    <footer id="footer"></footer>
+</body>
+</html>
+<script src="./Footer.js"></script>
+<script src="./Navbar.js"></script>
